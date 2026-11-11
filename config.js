@@ -9,7 +9,7 @@
 window.CONFIG = {
 
   // Nombre que aparece arriba en la pantalla
-  laboratorio: "Laboratorio de Electrónica",
+  laboratorio: "José Chen, Phillip Flaaut, Eyliana Montenegro, Iratze Melgar, Yaidra Villarreal",
 
   // ---------------- Sincronización teléfono ↔ computadora ----------------
   // El teléfono y la computadora se comunican por un "canal" en el servicio
@@ -34,7 +34,6 @@ window.CONFIG = {
     puerta: { pared: "abajo", desde: 430, hasta: 540 },   // hueco de la puerta
     elementos: [
       { tipo: "mesa",    nombre: "Mesa de trabajo 1", x: 120, y: 260, ancho: 300, alto: 110 },
-      { tipo: "mesa",    nombre: "Mesa de trabajo 2", x: 580, y: 260, ancho: 300, alto: 110 },
       { tipo: "pizarra", nombre: "Pizarra",           x: 20,  y: 190, ancho: 14,  alto: 240 },
       { tipo: "ventana", nombre: "Ventana",           x: 966, y: 180, ancho: 14,  alto: 260 }
     ]
@@ -46,7 +45,6 @@ window.CONFIG = {
   // pared: "arriba" | "abajo" | "izquierda" | "derecha"  (contra qué pared está)
   gabinetes: [
     { id: "G1", nombre: "Gabinete 1", x: 120, y: 34, ancho: 300, pared: "arriba" },
-    { id: "G2", nombre: "Gabinete 2", x: 580, y: 34, ancho: 300, pared: "arriba" }
   ],
 
   // ---------------- Objetos de ejemplo ----------------
@@ -59,8 +57,5 @@ window.CONFIG = {
     { codigo: "GEN-01",  nombre: "Generador de funciones", categoria: "Medición",     gabinete: "G1", ubicacion: "PI", notas: "" },
     { codigo: "MULT-01", nombre: "Multímetro",             categoria: "Medición",     gabinete: "G1", ubicacion: "C2", notas: "" },
     { codigo: "CAUT-01", nombre: "Cautín",                 categoria: "Herramienta",  gabinete: "G1", ubicacion: "C5", notas: "Con base y esponja." },
-    { codigo: "FUEN-01", nombre: "Fuente de alimentación", categoria: "Medición",     gabinete: "G2", ubicacion: "PD", notas: "0–30 V, 0–5 A" },
-    { codigo: "ARD-01",  nombre: "Kit Arduino",            categoria: "Componentes",  gabinete: "G2", ubicacion: "C1", notas: "" },
-    { codigo: "PROTO-01",nombre: "Protoboards",            categoria: "Componentes",  gabinete: "G2", ubicacion: "C3", notas: "4 unidades" }
   ]
 };
