@@ -1,0 +1,29 @@
+INVENTARIO NFC DE LABORATORIO — RESUMEN RÁPIDO
+==============================================
+(La guía completa con imágenes está en Guia_Inventario_NFC.pdf)
+
+ARCHIVOS
+  index.html  -> el programa completo (no hace falta tocarlo)
+  config.js   -> tu configuración: laboratorio, gabinetes, plano, objetos de ejemplo
+
+1) PUBLICAR (GitHub Pages, gratis)
+   - github.com -> crear cuenta -> "+" -> New repository -> nombre: inventario-nfc -> Public -> Create
+   - "uploading an existing file" -> arrastrar index.html y config.js -> Commit changes
+   - Settings -> Pages -> Source: Deploy from a branch -> Branch: main / (root) -> Save
+   - Esperar 1–3 min. Tu dirección será: https://TU-USUARIO.github.io/inventario-nfc/
+
+2) GRABAR LAS ETIQUETAS (iPhone, app gratis "NFC Tools")
+   - Abre tu página publicada -> botón "Etiquetas" -> "Copiar" el enlace del objeto
+     (tiene esta forma: https://TU-USUARIO.github.io/inventario-nfc/?tag=OSC-01)
+   - NFC Tools -> Escribir -> Añadir un registro -> URL/URI -> pegar -> OK -> Escribir
+   - Acercar la parte de arriba del iPhone a la etiqueta. No bloquear la etiqueta.
+   - Las etiquetas sobre metal casi no se leen: sepáralas con 2–3 mm de cartón o espuma.
+
+3) USAR
+   - Abre la página en la computadora (pantalla grande) y en el iPhone. Ambas deben decir "● En vivo".
+   - Acerca el iPhone a una etiqueta -> toca el aviso -> se abre la página con el objeto y su lugar.
+   - La computadora recibe el escaneo al instante y marca el cajón o la puerta con una estrella.
+   - Etiqueta nueva -> el sistema pide nombre y lugar (tocas el cajón en el dibujo) -> Guardar.
+   - Para probar sin etiqueta: Etiquetas -> "Simular escaneo".
+
+SI NO CONECTA ("Sin conexión"): la red puede bloquear ntfy.sh -> usar datos móviles / hotspot.
