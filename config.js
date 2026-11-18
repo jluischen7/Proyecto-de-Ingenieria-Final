@@ -28,16 +28,20 @@ window.CONFIG = {
   // ---------------- Plano de la sala (vista desde arriba) ----------------
   // Medidas en "unidades de dibujo": la sala mide 1000 × 620.
   // x = distancia desde la pared izquierda, y = distancia desde la pared de arriba.
-  sala: {
-    ancho: 1000,
-    alto: 620,
-    puerta: { pared: "abajo", desde: 430, hasta: 540 },   // hueco de la puerta
+    sala: {
+    ancho: 900,
+    alto: 1250,
+    puerta: { pared: "arriba", desde: 50, hasta: 220 },      // entrada arriba a la izquierda
     elementos: [
-      { tipo: "mesa",    nombre: "Mesa de trabajo 1", x: 120, y: 260, ancho: 300, alto: 110 },
-      { tipo: "pizarra", nombre: "Pizarra",           x: 20,  y: 190, ancho: 14,  alto: 240 },
-      { tipo: "ventana", nombre: "Ventana",           x: 966, y: 180, ancho: 14,  alto: 260 }
+      { tipo: "mesa",    nombre: "Escritorio", x: 40,  y: 470, ancho: 270, alto: 600 },
+      { tipo: "mesa",    nombre: "Mesa",       x: 590, y: 470, ancho: 270, alto: 600 },
+      { tipo: "ventana", nombre: "Ventana",    x: 300, y: 1222, ancho: 300, alto: 12 }   // pared de abajo
     ]
   },
+
+  gabinetes: [
+    { id: "G1", nombre: "Gabinete 1", x: 420, y: 16, ancho: 440, pared: "arriba" }
+  ],
 
   // ---------------- Gabinetes ----------------
   // Todos tienen el mismo diseño: puerta izquierda, 7 cajones al centro y
