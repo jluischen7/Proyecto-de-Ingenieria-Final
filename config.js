@@ -9,7 +9,7 @@
 window.CONFIG = {
 
   // Nombre que aparece arriba en la pantalla
-  laboratorio: "Laboratorio de Electrónica",
+  laboratorio: "José Chen, Phillip Flaaut, Iratze Melgar, Eyliana Montenegro, Yadira Villarreal",
 
   // ---------------- Sincronización teléfono ↔ computadora ----------------
   // El teléfono y la computadora se comunican por un "canal" en el servicio
